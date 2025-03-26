@@ -1,0 +1,99 @@
+body {
+  background-color: #000000
+}
+
+.a_containar{
+  text-align: center;
+}
+a{
+  
+  font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #cfb27b; 
+    margin:  auto;
+    text-align: center;
+   
+}
+h1{
+  font-family:Georgia,'Times New Roman', Times, sans-serif;
+  font-size: 115px; 
+  margin:  auto;
+  text-align: center;
+  color: #cfb27b; 
+ 
+}
+
+h5{
+  text-align: center;
+  color: #cfb27b; 
+}
+.bookshelf {
+  display: flex;
+  gap:100px;
+  overflow-x: auto; 
+  padding: 20px;
+  max-width: 80%;
+  margin: auto;
+  font-size: 15px; 
+}
+
+
+.book {
+  width: 180px;
+  height: 300px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.book:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.book-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(52, 49, 49, 0.7);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: none; 
+  text-align: center;
+  width: 90%;
+}
+
+  
+  .book img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+.book:hover .book-description {
+  display: block;
+}
+h4{
+  
+  font-size: 4-px; 
+  margin:  auto;
+  text-align: center;
+  color: #cfb27b; 
+}
+ 
+  body {
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 20px;
+    color: #3a2f2f; 
+  }
